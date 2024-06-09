@@ -5,3 +5,5 @@
 *.npy
 
 gym_equipment/
+
+.idea
