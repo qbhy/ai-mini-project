@@ -1,0 +1,1228 @@
+{
+  "features": [
+    {
+      "feature_idx": 0,
+      "name": "image",
+      "type": {
+        "_type": "Image"
+      }
+    },
+    {
+      "feature_idx": 1,
+      "name": "label",
+      "type": {
+        "names": [
+          "lat_pulldown_machine",
+          "leg_press_machine",
+          "leg_raise_tower"
+        ],
+        "_type": "ClassLabel"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row_idx": 0,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/0/image/image.jpg?Expires=1717702180&Signature=ikOphufcV34y9Dhq4EiilLg29w13coLkDgN-QnzxegySJOCDZzoYZp99G9r2mPEt24akEg4XcN8cQzNxY5MQ-ZYCExGRr5doyqsM5pIEkC1ljG5yzJXzXXl317sBWOsNSyKnxlV95CNJrCscThTS6hbOK3Rs5NPNCQt8~ClA4zcqSOEZrFSIwq99rVF2KdzD~6WGh7o6mz5dR3NWTHOPkz0AD~nPpNmbGQ2do-6ugWBbi0tayMtxXDmVY3Y7ocSJq8v-5uQDRz2kqQvLDL87~~QpJGMsY52UkIQXtaqa~02caWmAjI5WT1nK~OsVSmBlaI71KVozyjkWWjOwlY~MMA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/1/image/image.jpg?Expires=1717702180&Signature=CHiOPqiXhgbKiS4BnpbEa4jkiIkgVv7HIh3XvYjv0jtvCEWAKVhbfonOKfssKlgeVWUfik8gQZnZOoJpTFYY8sv3h1kDb0KMpr2KEKGG2ePEDYfBjkFfRbWPC7vezTngMZnRkTVApVnjlW82Gcavg2D6KoLXYaawH0gkGqXpVu2mOp6JQkl-4sGrl66pk49B88iCPaCPPzDiesA51uuWSOoT4anjhgauMi~QX97Q~2tIX92zZPPCgY6VFSkwlZ4Vk56STpNZqtQvoWXZTQW7zjJjtzTKwsXXcMilhQVm9EG5ghPiVIhIwEuo8CTRet4k2FOnERhIxNISZWhFv~2amw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 2,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/2/image/image.jpg?Expires=1717702180&Signature=Y9KIr8-o~l601DhuJXmXWjz6smlEa5gsj051kMUCpJsDgKNCId-Z691rqUFTEFumQ9HyjC~hgKwReMHIticHUgl~u3NCRbwlmolQ9e8I~lJ4mMxdNuPm3wGg~duGap8HQ5AtJ5A7ezHfmiD9KARYgEIRkrmlTuCqZD1QEQjasmfgCEyo0SiJJFKHsxA-10weseCpKJHfRoInkKBCYFSnDMhpumMwY6rIvI1GzcbdQ2XxlcAd3BA3RNPlO603VUrqZoC5Td3K9b6z4Vh~fErE4VD~OQzh3VzB1ELfUA4Kfae9UJYFZ0v37AQCQBRUPfC3RvxEIrn~rZTkL4AHBQwhtA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 3,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/3/image/image.jpg?Expires=1717702180&Signature=g4C1jBMnqyZIibUGCh52KhjTjMxto~LIg08HwNdxK6RmOAropGj-wmypPmLzduj87M5k-Aqbj7YzveTb4Rd7ZCNcbHw~z0cubEiAQzahSDayLdupLkb5MWbzcUz8mW9MPR2BnSZXKV34MLUqk-pe9dOGr9kw-e39fg-Pnt04LgRr6OodAhqym6Drn2RJqQfW1Lp3TCQUuh-K4YlAYpx4GutizD2H2qcqwidtDoeoQ4~Csuw902gCI3J9H8jWLFACGs~T1rAXPlGqTXnIL-p0RwpfmEVMAzTluKs8EVv3BRXvFp~Wi2sPzKgrB2Uou~G9tuw0PSELmD~qeqZRO3qUGw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 4,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/4/image/image.jpg?Expires=1717702180&Signature=DJ22INg1CIlxR7cI~oP9YkWIuUrHoIQ7ZTC~5wKBjzQ8ez6EIHZdSksbGEcJWk5l2YZazm0y18vZKoa68thhPrzmSWJrlzSjac5n9zgRbvNGJjEC-tyS2aUMNHzMiu3V25s4tsqNJ5kR-y4UYqe8aOJdYJj5wGICoZ4oXJ-c9wnItREiGQWmASi6vlezgvuHrd5DQO7fMBTiUB~GbrsxDJrxFuOgv6HeToL7Xr0YiodMcYX6ScNQQ8rgtYnBeQ2sdT3I0iK5rPEG2W6dbLpupC0J79YiPzhZpUDjFLLTIREGLzQRotifN0ncRT5n~Tql~7R7G3dDGoByIL8ztRpJSg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 5,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/5/image/image.jpg?Expires=1717702180&Signature=pdHFJosJbJXbPzDskHi8HC9c4JPrTPp5Oawh1yZukL8qjpHnQN1kOAlDxd8Cgqzoy3Q4oxJ7jo3qkhYgYei5cMM3wA0mCFa3rve90PAypp2~59Sj47wjvDia6aBjvl-i8MzdfrYSf616m4zOKfxX9b3hRvJj9TJlvfuXHix~1j1E06q3ZJW9GZ-0p53Ai2x9VwQ44kDXG7dNR8BFdGn76TXuFnBNsywgVoOZCxFZfC67xO6idE-SYzWD9DG0cyxBFg3qc6NJt7pckwJd4qv9zmkJ2ti0m85oJygM0Pw5KOX-dj2QSCtBnBe7qmJoVLYLNokhSP5JAWFOqAfPLNrO4Q__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 6,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/6/image/image.jpg?Expires=1717702180&Signature=jSlFQyfJU2oNkdZgSIfFnAwBulpV4rxkdGQb0TaH74ffflqixO0qtrchh0qoBKdBOSyBb7MtjFKiDPYCtdCuaXBTCuihlvc4V4mzhalFANWqHPqOL~sgRDo~5dawgCUrGUFmJPqwMTMQIjHYi565GAl8C9HXKRgEMOYn8lxoUcEWvNjYyW39wXGuDA1pRsuBlYC01bM2COJV06pA1z3AocmiQ2CAwwlHHgC88z5y99oZm-PbuMHzbPDvqNpRMpn6C~HVlZkpT7g6gRD4~35dRt8vmlx6JfIHvuzJQm6xJLK8Ha~xIx0eIVGU0z-2yf-S9ITceO3qfrZ3~52JcW27FQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 7,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/7/image/image.jpg?Expires=1717702180&Signature=wOsQzjFmNcWddmm36ul7NS-MlCl5~Y54ntWqnLPzjPAfzN9MadkqHDEBjkiPL~sqnuUhnCv7RWSjPDzg5BcZ~dTEZyT2KdbXs7XHRxShNnoYIQOpS9eBs1oqWgZ2pPpcs1f~4fvCGJZRm7QZa1HaNmf8cBI6fIsMBYxHAUZDQITqxpYfVxbl9jLFF-d~nQNQ5dm1j6oZBBb9D05MJMYnlWPwTJ56eKe6fk4EAK1AnfbPqrn~OhTKqLjJNitzpOZSD8QuUHVUYlXky8i2rn8scMNEPO5lse~C7cIS270ogFbXLJUk1147MYvKl9swr6zrcvglohLAMZnAn~~teWwFzA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 8,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/8/image/image.jpg?Expires=1717702180&Signature=dlARaTt~h5PeW2STPqQuTCG-ELue9XMaXWcoXpyYpkXAgqEvgvazsoDxJjUKYkoOtiA-PVNONdx-DUwx5b-MIwjMo0ZyR1dPb-sRut4mNhjnqRTEOWRvQWEeydL6PLdWzDV4h5hbMqv00A07QjLZplDmJUJU9CqjHl5bTH41tKL-sxqyL8WIQcyU0~XpsPWmuujanTwMD9M~Vnf5ZGFTm4KB9u6sGBKp3gFb2fnz6GgcV77OEa79~CqskZjwFgx344nK8vWv6GU5H69b~d6eUjWEtOCFRX6woAINffcNSGZw8pwftN4wnDjkz-k3BUXJvNoo1gL6foWlF3O584Q-Jg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 9,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/9/image/image.jpg?Expires=1717702180&Signature=QtBDxldJaR-N02hz7ERRrECvuDTLbh8sBIJJso7YHpk5bDnA22NzqnkThzKgSaOD8YCuGyALQprzAmIltZ4wre7HI4igS1NcbbPBF3zw-UgfraE5jRv9HsWvAsqEYLATiIfzXS4UtfzLNK2xZGME2wEL9~0yaKrlAXsNwnjJHEzNbNfsMfCOZaOJ4tOXw~PYlRXqHCpl9~yBRmAbaYn8jEzXmCjT1S~Y84uaoMzMm22IV7l51VvRvz~~XTcSifurKAjIHs5BGhIx5R7QdDHKlzqHrxhqUTiOonz1e0qIx9Bqr2xcEMu~YHBF4PQfmhssFOT~iCBnoLP2xvxfmRp20w__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 10,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/10/image/image.jpg?Expires=1717702180&Signature=CyE1epgccuawK60prF6ivA97G7GgjlnweWJlh4BCCzXRAQTebaLkSqk1LkPmjgKzYwlUdFQJ86Hv4~7MRCS2wy68VgUMMeRIqq4Cy55u1EgIkxCiCcj1nPkcjfBiogR65yIUxvW2Kd7qgG2Jv2-bHQ5w8ks9oYVaxlyhadm3~dXuIpsotyTpxhXJf0sHFq0MdmzmGanWDc11xe1IildgRuJRc6TGJ1R1WpliSJX12LR3owba5cWIuuH7vEL50cA2Dp5YKlCrfyWpBUCt24Jn5qwDfc~lforG3k5a0TScRiVQ~lYQwARzvoGSS5JQGn5vCX0mUVwzSw3A9i~jgZwVUg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 11,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/11/image/image.jpg?Expires=1717702180&Signature=RDQVuz90HU6L7HxDTN6TPasI3ikE7dGuiaV2hQtAUU5l2eLp4kgmNmvY6GuVZE5kWJDp26J03BCleaNYsulpgg6-zyKqtbfDIm~WVXC4qcaqVvoA-3YIpLcT47OwTFr2SC2jmRc76uSpoRViPIAaL70NQYyFoFVvJaGWJBt6OZEyKNARxkUmMpNubT6ABluJ2wRswdL4DnySR4h1Vcux8ptBEk69RJqBUDMthyMvZlHRC3gJRH0AiyBIL~ZKhpmNoFonzenpEA0dCD8HdnV~SzQ68L4K9bjr7L2eFqwmeg~pl-eAwgytHWD-HcPQxpR73mtGHZ9Y5gOqXbEUKOAz9g__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 12,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/12/image/image.jpg?Expires=1717702180&Signature=va4FybAvupUH3pzJquGfe5k7j1j0YHiQlmaGHYYJqmM7pYElop1KKQ0NsrhLP0uhobPykJj8z1OQ9CvuCow~ftSDmpZc0O5fZ3aFSKfysbfVAey-6PSm8f~K4xeYKSDYwqT5o9trk45jfqcfBrqdT3q-08kDXkpiPGYoYyza7QlRJytHxDzXd7A05S6HZ34idxLeKa9kI2LiWEsAU7jjvxasBF66-A6dVM9KVSw044npRxbOzABGd3L7I6ICNgsMnVti85W2QeNubzItXe7pa-spoxco0aS8CdoP~L9H3-FOQu18kbGRX~CQP3Yri90532NbCjgyuaaw5NlgitL4Rw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 13,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/13/image/image.jpg?Expires=1717702180&Signature=EBa~OMmQYfjhLJ4m7l8diIt~yQNpjAY73OHfGVY8wEV23ZCxUe7VDbsPdDWEhSeQly4Q5-zhftIXy2mLvMRzdq4j7NimK3HlYVNKw0asigNt1yRbbh3WR7a6r8wCAAzJK9bUdHLxM6-~uQi~S5M59Eqk0iHE5QKUXeusdZcXR8m0a9~HukCfj5W3Ypmx2bq9bj4DaV12I5a5LXaFMMnpK~xgBUmbiz-O0Y1RHCVcVV~qmka5e56~dK6aDNiGrbTdM3-tgLIr6AVFatQGDnbDAr2WwislLU5dY7pOX7lQBjaCZDJMMjk7hRbZCOvcheduz8traLU6cRgwH8JdPB1ZnA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 14,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/14/image/image.jpg?Expires=1717702180&Signature=P4ZXmnfMkqLPBu4ah0Y390h1Ocx3FRD55JNuLAU9~E2Fl0uVGJs6kXlQkv~0EEJj4NE3cpZ0kgS3dmGdlcIi6LSByH6onkZ6zS~QL958sDclTZ-sdYZy1zNSezJyAMY5s8f7LrbAdnFXEkxWTDbE4jysuFCmJ4zNhUw6q40U7DPXpxt5c4Dk1Z6GjX0xvbntGSGQZFPCwPGQYl7QAw4zrvxGtAvIqASRNd1rTFab1dc3~KtvB88wBeAS~DGlMOG6ivUKYyci0~T9e0VUaeQBmBYRajp1LuowjKeBMr447e2by-yufHyBAwecaUMvSg9TGuV5G9i5MEzijWiWMwQ-YA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 15,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/15/image/image.jpg?Expires=1717702180&Signature=aNdkw1hm0PekihTXmXDPbYS3K7FvxppI7NDOgud9uBYwJvc1G9LEyjEk~Ow~jt~A1e1u6vy3sLrCm2pES1W0W-M9xhaxx8ZKnLpmdLgRXOgVmO2eK7vCpweZUadKPtI7a1zT~~TFJzGjYU4CK1dab5aLPDi9fGuOJjsGIYNcyBQfnLikrsK3fWJS1qpLDhik3TUZ7zP8h-fh2YjnLUtRSP8FPl0hfdOoNS-90nPUrbwGN94AHKHBrLVt40akY6scZsmmGSk09scBlXDJIFor0j3g3NjVK5~I5qZgPVKfx5HF1yA~2zprWR~Uqf9sKsHiMM2yc8CdeTJhjye7M6vyqA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 16,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/16/image/image.jpg?Expires=1717702180&Signature=Kt6r4ZNdJ2ctoYkVuPHmCmwWgt7EyBKOYvdiFpgtbpyLTtyDGk25SoH1txpfo7XQovxvf7KS3ltHqpb8MHkV1yzEV1BGo7rrO5N6vYJM0n6Yl6Fcm5GmpuoMhImnPqt~cpyj~yT3~CrlbK3Tp4zVVFg9aLFbBXPyfxT-0H3X~Ce2Z9eMO14tdJBy2EC2u2P4yd6oy4gBXD3lLA4f2BoRumMahR8aa8FB-S1fplHdgSB65pjXvl3zLH7hA6OiHorWqg7sONd3oOwOxrOwqfaDhmV4En6JSf6i0eljn7oK2CteHa4WXfFKyKiV0riucw9~YfvlU-WmOQK90yqEk2JYUw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 17,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/17/image/image.jpg?Expires=1717702180&Signature=wnBCDRvPdQHUMFKLo4ZRbW01KMy4rwtJBnwsq9zoJUgsEujlWCoqas0PQfYdhLkCdfB0OFwGM8HnWfZhJjWgG9mATWHZiP2gxu8Qyll-2ahCBLPvSr2E-grqenuvkifkMhbhSyNwrBysxXHR4H8z-PZKiwpU-FZ2W6Gj6hwd-P9BFEKNJohH7mvaexajN2wPlGMf2Ge1aRmYldLnJIB6pkcreCr3uLt8Uj3RhQcaMaqNs4S9gWLvmi7nWdF4mSUa0Q8cSNqbir2gg8Qp6scpIfM8XE5OhTbLfnROqo2uDfXr6TL~9hF6FRcEEh~kDttO1~VoG74QKPg46uOWtImiTw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 18,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/18/image/image.jpg?Expires=1717702180&Signature=A76HcYVIvKC1IjDxGOXhVpT9wGisATOx8qnKcrWqkmrs498eSzceRM2Hdyhc-UPsXbWZHH48yYRpryYXPDFbabFKp0335e~odBMgANanwG2fmAEZR2ac1HUv16Kt3wVchZPKeY2YfoFewAOee22fp7ZtljOtnxt-G9JRjENvFwvQMlzosg-B8SoNMioghbh6gqKY6NmkO56X39wNL5ROS9d2vdDsCS1rHSnbiFX~fhLOAhIVESBOymKXcHfc9LNuD3yZI90UruYXAfIIH-DorVrFd7S1E5h1r8C8WzmFw~HMy~9BRmtqIaA-pFK22FqiaYRny3WvheC2qp9RPkOxvg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 19,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/19/image/image.jpg?Expires=1717702180&Signature=U4mSEmSjh4AuAP5uxppItWX1YYEHBeQCgPTEdaoNa2KSnzkYWu3nOuAXe6JcptEFiIn0J56j0UR4ypfL9wAI1wv1eX19Y54bsPBGCV8nuiPX9RmACyBYq8Vty1TTFFtPxFbJamzurd27oIGlvB85wjP8W4D7witIB0OapVZaY0gaRq7FsfuvOzcJ2OdVw7IV9m2Me8k16EHiLYeK9vdMZ7YgN1UAcD98cKJCoZYGPnBkQRBBMXKjuh5jJZhJ7KQiUDXIjNAF7H36XikJOisjrAHCWNgT1AWwhAGxa2LVGe6o5N73PXxx-hvVI-gYjBfTDfciZI5AIHBFItj9F7wbyw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 20,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/20/image/image.jpg?Expires=1717702180&Signature=ubCTXRRbCFAXQa5qc60~y8tAdkxFY62zGr28syTQ4Nk7W3VqcX8TpbuIbTUjBVZLHL~tnmxwyqyVYGhF3Fm-OmuQRjCGZy22s7q9b6muIl7zQ8KLMTxVEwaRqiJTw0w1068wuW~kTzXx~vgwmQdI8DxIPy3bMEtuQpiPYRuHN8dHiXUMsm1RTBwpr-yFOyDxQ7~NB2B~uULZfrFY2YE9wdUPQzYuXpAkFqgDkt~h0EP9baPLM9rqT--cvV4rpNoQjaqUI2vP7LMEGaz-sJAM9IQbAxr2T-gzZugsXDrsHW7S0veNQimOPxOzTBXQwUinsx4TIFn8wmARjVb-G1hMzA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 21,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/21/image/image.jpg?Expires=1717702180&Signature=H4uRajd6SDSnqiHnlshxIbMZi~nsWxdgA1dL3M-T08NS9TAZTuwU3D0K0iRM4~~vqUBZ2M0QHNoboaru11a7jAsRRwF7da~duZ~1cSOkj9L7HoIk21zLAFDblmO8fQvu6pcB0L5GD5p~tEQAI0Izm2Rx--RdD8jGkznDuWdudqRngzvKtsA9N8osuXnjbxq-6qW3Gpn5Yj3KBwNXi5BxG0hfLxAm3RuHBEi9SjPmhmvkCPjw8Yr6HUReoDBoZhRTyq5i26pvUfwI9fuaMHuIjN4iC6rvEWsZNFJ4I1N6i2R~mSzn5CBG5rSnOMjgiNac--9MuNKShCo1ezPgrSJ2Hw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 22,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/22/image/image.jpg?Expires=1717702180&Signature=T1MYSd5GiP143K5GiIE4dkLDNvIrk1M4WaZbvs~cF865pdhGiUkQ8BmY6VxgZJwjtCsQkHz-TDtaqs1baeuEUtquiV44YSM3gWHwYR0nx9ochizPxwDZvRYdaGUQkcmpAqjrf1ejyrrHc-ms2HcSME61zw8VS8sfIb1WAHCQ8-z30Cl8Y-FNnKTxEelYoOSka6nvdtpeUE-z6GjMEM~FB3h~0CIgUO1lkjom~D21SguGs3Ghr8vaWnWGoV4YaSgJXhqhNAupYqVrpe2FVl3Ds4317klULZR1SZnfq49BPRctSIENOXCyz5EjS2qZBrb6itT73mEnT~K4Q62gejiQIQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 23,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/23/image/image.jpg?Expires=1717702180&Signature=VWsEUS4HN1Gvr9o0AuyuI9U0KDNeLudgTWFFM~pqcVSh4nlAtgY5DunP7D3gSlKP89-BdCUiRMcJc83davgIw6ad4sPKbP5vs2BHWPUemeLXD4Dgk1xiayiL0quYnYEfmDPCfLYxGsMY0~9iDQvRYpVY1s6R8RW2n7ZNY915DDf9pH7c0Y75fsJ6HvaMau4swlI0pVikoRAjDdRjwbZSmzEdG2AnoRLaoG2I20497EIPgHvLv0a8aKVZhWrF4X9ysxAHHJa6a4h5mV-heJQvUY0Wy8bOb5XEacRFWnXleJNR41GhkHB7GtjPtfnkBqLt13QLYT79dBkcyubg8rpR0w__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 24,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/24/image/image.jpg?Expires=1717702180&Signature=ArKHqJefPot1E-PBjaH3erdwtF1t~9mpYKlt3DLo0OoS99KI9Tp~mo3PJ76JLVgCwURVwDBF~sdSVuRfWwWTLUv6-XDQOkh-R7MnbTpxyTdem03YF4Cy32BSjwTXeFj7XWx5htRZrkAY0z03qIu-sGWEPwW6EdjnYW4V-q9mrWLQOEwZSr4eFsF1b9CyFC~~luC1NhitijOp41tgwZ2KE5JJfkiq5EqadSsHmQZ4e2PvH7zIu87blxdy6AFmPYc7cx~JLqbghehj4uicDkb0g42KBwx1xLGNj14ehN5gMCDACnc2mwI1CKj6rISfNi3xd41tYmCRZM-bQPtqZ-wAqA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 25,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/25/image/image.jpg?Expires=1717702180&Signature=WH4OSgNRyODbZwvXpsro-JjAkyH9vzOUSLuVSP4r-P0iMHyuLZBCPX8pi6mbzCBsv9ARR5zqUKrMCOuRuEb3-1XetGuVr0yu2QoZgk5wy0yUCrfeMtauTKzyECvPO1jo9q9HTBRaWy1~mGgXDo424W1rmVh2jOatGrKV5kPUgsV51gFE44IRyWHJttZpnQD2En0pOqJOiSrP1Ikslk6j9m0uHJ2BK-L1CFiVTaQNokqHr3Jei2iz~UWPNhDLaWXslj4gKvsZwNLiYG~oj2VEffkkpWPsy8DtxcmrF5miw20T0dfrtBKGG6IxWVAWTynijMTEbyCmgeiz1IVakX0T2A__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 26,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/26/image/image.jpg?Expires=1717702180&Signature=A71Huyk3mwWd~aSdd7HtEEi~WRRUfHhMO3sm0I92mNYRyN3VjvwjNiZ649JIembtbVuyq3Mz0Ze57s1Kw0qX-gtewIAFt1AaRwDxWuEqHO9Ce0Bl4eD4LI1gxb-8Uz6ok-3Lm6nwgW4ePmfKVIzT1Uu81m48oX8FFm0lmYOvEWY~3WrwAiZkKT0dDy9LnafDv~0t5MZLfsONDxKOJ30jZqeUrqrPzC4ZPk~TfHoR6r2B4gmMUofSl9fGPa72EB6u0M6Nzh6tXZbEOWNWBCYzBHoaDBjPFV91u4OoWimy~uetsU3kUYZ8SQ5uJ3UsXio9j7sVsRcfR9rKkQI4F2EBPg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 27,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/27/image/image.jpg?Expires=1717702180&Signature=fD5ZQGsg5R7~kTC7dCGt83XcHtTZEQe4rLEHhfmhGz6JBvW21ComWVY0AsmZpL7FK6~dDGD2WtA1AUDLqHZYeR7rVGrB68INnWnlA074Pwh9oSnGZ8e0QTJI2WarM81t8oPnC2BVdLjJu8PQv5ErRfaGdSVZMC56h19UpdZM574FRjF7mOx1JNUz3QY6XHwHhGWai2e~3z~COREWgLSpV8JHnZ7jY9HR5rXhHhGBxXaehR1e-3ppRCWwY8CGHkol73M6FHW2IhZZtFKYd4mSyrJwxRBsEVSrRXGQX3afBj-sqwl0z1~ZLmoNSPZk2OqnAcPsgKDYN0fCPhtNWjPKbg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 28,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/28/image/image.jpg?Expires=1717702180&Signature=hiVrMdAFTO6~vAr427ZQz1N78~jwR5XYJCisk6gOZyWvZHJc~Q8N05joK1byWmcRpXVCRW0x3KmQ3ZSKWX--tb7z1aJ~2oqpDWPN-eGzM7CpO~YD4mzJMUYr16W6YEY~WFy1lZERDDnRMYigu882oJCHkCuucubzIMHH2sU6PhABMgHDGwqUko8hidhpDEtjvjX77Og8chYjR9LIRUxBsxFc9y3vRwQUIxCWr-qXGhhYaGibrH4jMnQ54FApk-T3AhN8GLkTq6ENm78KxQXGtb6zS5X8OKudYMoPfKNklLJCd2M4xOUTlvdyhXbdKgwA2IY-7hOwaloSAAhBRgBMXA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 29,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/29/image/image.jpg?Expires=1717702180&Signature=qeGdk-dYp6escYRkUvoDSiE3hb0mg6A07p2F9nd-2H-OdKkjMpSEnh8FGzOXmmT0UOGwCrm4LGwCYH8tohJVcjIR~mTlbvGWLdHo39V7IiwlW6NpnzVURyAb8BjMygOidy2Wf2XcypNdm7hAosYj0RQu2NslwXM~0FXF3AiCBPwiglK0HMuAVNdaDrL5p0x6q5MpWE2PxAykyiKOASCGiYcv8XjjlKPatX3Wv89xmHGVKzuiRkw9ZEhQGyLWuKkP4eYKKrxTLwbyuHwQ1qkPhaBu0jjo0xkwNQj5DLyyZcoDsjby5jCurdUnXCnagECVlzpeIHHTytZO3rV0iWcZCA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 30,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/30/image/image.jpg?Expires=1717702180&Signature=vNJy0cgsSr5i1p3X4prubTidTFdm7SpnFdqxmGN0Jq9cgpWzVDbGQIX2OO1RJG0DKDPeCHocTHGXEKdyFfQlFaGiWzQbbHuSgVxNoWgwH-SOyN3FhewTeMw1Mm4VI9-ZcnkNeVPUmx3JDRrz160YAXqEApytoXR16Ok04oQa6Tel8lj0sRJyehbzd5zifvyIcy~Mo9htSjNiNLTAkj7fg7RX6Y67tKJG61BzKm1hP7jM8l3e7SD2-EVPZIzr2MLGXTOcRsU7wG3rYM0ULRLMxtYs7ASpJRDGNIXqjVsBmZcddMMC~ejvK62~aeCKlF0t4IttP-BY3Uq4gbjS9cknxQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 31,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/31/image/image.jpg?Expires=1717702180&Signature=IRNXlEtnhGzhOhrAFeGxi7BVFXvgChYLbRnvxpxVHhGCgkCz7RwH~7GGX7R3ASlsooLPswGSm9vcKQebtKIu5cRhPtysruG0LazDQY9mY-OkOPePor1rXlUa6JX0LH7-AvKhLZW~oF627B9WsJl1dRm2fey0o-pCRnBUTAlNToGyQU309oqMipWTtsveJEtsRv~1Xtu11aP68usabq1QKLBPDegWEA04Q~LwML~dDDm79JioFwPo1VlHVxigp~iAMTod0cTFSO9jyEgd~3jPU-PcxCLs52lJxZTBRhiQiK~hoNSEtDVt4sghpNCqDT9dzyAN1FI8xb0x~6s1QjY~8Q__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 32,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/32/image/image.jpg?Expires=1717702180&Signature=ONEVOv5ZoTI-vbpjZPZALfy5qt2OkOWGsohdjHNdNYiV94d8hybB5LkMaFccvo4~QY1mXh3S5mIbVOc0z9ETtmNL-6zp9PdUhIqF-8P32Zlkf1fPUbyfLCilge13ySKygZrluPmFIRQX6~oAw8I2V5mFGtCKml4A0~sY9PDtU8nPnpmqXEnxCpqtQTIVtYcRPWaX4aJhtesYFjzrkQI4GcKtCbBS9DqcW7~K4lkR8Ier26gPWZy2-zEc3eN-CL~fKJYAXKbCUh6-BSRUHOa8gkw3A7LDQS8L1xsUVD3Itify7cEw9y2oknGLMDqkMIDX87aWCO5LqCoFsRoK8asqeA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 33,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/33/image/image.jpg?Expires=1717702180&Signature=qIJ41La5n67ywgz9C5l1WtORp8MIbYYQTGqg7qR1yxtfCbWQH~Pcc2kKisZ~N3FmfD1Ks1t2AdsTyvyYYTQTXACyZpMUO38KyF3VqEEe6TillhwPXubPIKeOn8UkLz8v0L-L-nHsRZHj~GoJmv0UNAHcErBOr~klcGA7EoFdCrN8Igbl~rXerfTLrWtm0PPdYrBTnARvaMVhywp0iFvFfsTmYwsOfhcvOww9I2ZoVZ3-kNQz~fbXQNAhIyImo1KmVbFPgyI0yWUomC~AxpEncN0m-q~UxmkqQjm4D19lHgbkGIj5GNTGPvlZb~kaQhryDROUtLEtsKmxREPj-eBM5w__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 34,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/34/image/image.jpg?Expires=1717702180&Signature=fRNPBdAakZUnkAIHfRQoP108O8y12wB0Bera6S4j69oPSPlKrbmmcmLOjZ4uldnVvLwXhuVQo~mHX0Tn9RAtPKa0EVmQAImvDmNu60joZxyl4AgDp29AQp0HsQh4vIxnb6YzDdonU1Y2xpMDhji9b5Yeq0X9a034UE98USpvyuR2BgFNBS0rfd4HuVNrpBTnwpsBkVsaRdWnj9leowprMeYSJPHTxwjMSi1~Ew3jvunNZ52BTT~BL0G61uhoayBUBic3wgAR7EiiGj4aXHCyLApPcZwdszz7qbK-70PAwS3n3gtlKy3NH4kr3oJZgrsyiOEGgNeWXtEOPNaHqTcofQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 35,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/35/image/image.jpg?Expires=1717702180&Signature=HPOqoOSg2L2HTP3moiBul8JcrEtAytNs2~zVdoKKoQCdsM7JVoD8adSG9u8gO8wudV-R7vc96zytQiUXsgPK4sH9Rrp6ZY4Nyb-cxq4jJF03otY3Sig1mUZaGK19Xv1q0C4CUxUBAYz63CvqXmVUoIL2sL9XTXvELXJiGYrcyqL0VfuVrJSQk8wAVP7kVBIr5M8RDro5tp4Qqmm-h~vKKUi9tLs3j8tnYxEX0L81fTg1hmN36XmoMQrFFDnhfsoP7lHiOmOD4mehujQu17Vxpkn591ra5hhyv7jp186ZVqE9BLr3YhROMQH~hhmrKpPzuBLYnS5k8noj7AKiPp0rpg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 36,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/36/image/image.jpg?Expires=1717702180&Signature=ajY4pGLS-T1kTvCSL7ZmiAE~8jAUpyQYs8kUPvYztbvpYPj5zqcNQM35eP4FRYoiAFKTMYcdmjn7kAM4iv70br9pXvUD4sluUDSExcN6qadFfNpovkCefUuV9Azj8D6sLTMeMRmun4fgZ-4qhLFIP6f9dZMCZDvE-chv~k8kLTwmJDkvP6MNFTp4KaoXWBGYxo96mkzrEi~Sgdm1kuXcjpP~oeITYAmIHb0Qwi9own-tMYLHpNY8~zcqNeKqTfznc0kXQMXzOqMl8BbbUSKoRIvO6-iKfoTTnZlj9NCbjF8VPIX5j1JXD~CGiChV8VkZKlwn9pfdxKzxIReDnU~NgA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 37,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/37/image/image.jpg?Expires=1717702180&Signature=npnxpRHGMUj2quBUDnwGJ8iqIrvYtaH8cmeY6sERpzTJgTO50Je5XGcL7Kl4Mzh~-WD6wXTRHsmHHSJzhgBzG8rn3gIIfOcal6-fBela8yDxl9JJlNVepbUHifsAH~~-qeSQ-W7CLch6tP9WXI2Ulcjt-MT3jae9YVsDS-BGDos9n5oUcrccJ4tQc24QWV6b7MjlnEnGfzsZXW2TctETXj~JCjBcMVB6r0eTnFPtLWoq2yA5dmPdw1Eo2hie7Qmjjj6pNekml-o~Hg42x3VPAMQavZE3W~CPBweK7tdqFFdTnXZW5qVpbm7AJXVGp6vzU3Id6594yeXQcq13MS0GxA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 38,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/38/image/image.jpg?Expires=1717702180&Signature=bpCFxyWeBG89HLxvGP1Efis9nyic7zPjaGk~vBq~2OY17PEVArtGcuuETgoN8GxHCBqcPU5lh64hktv98exs6GAy~En3zqTMYUc-dCbKpVAx7s8jJxmOffbx2Tnm89SVIje1Zn7XyKAPSpmhkU-JnJUNON7kPhUPDzgAkHaXCwRcDoPSvjPn9iovdVg3yAItCT~fwdLIgo5Dpxb7gTrOMhxi3SLvyyPpoAMT8WTNvhoel~QRpNlTT4t31vehXN~0wDz9GgHs103P35FuUHr2wkhQDjn00Oe~mlMuC3ZDUaRTiXYFDn8dGjfvyclDAo~qV6vwehNLsRUmhRNxrA4T8w__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 39,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/39/image/image.jpg?Expires=1717702180&Signature=GYmnLwDv~kr46-FVtsDgFsL9N-oPfhTntqmLHvJzr~g6AQnF2GuwkolQdevRnVfSKphIPncCadD8w3DNALMKkBpiD2oa~i9~Dq6CJ1~vLCR1tJsLpCvAnM0fTFZQFA2yiN3PGaFuc-46XAtwSSZuNq8x~OJId-Z4o~PLDz4GlgQJFWuFhhLHo8o08V-S9gge2QVm4cUBPoV0hKE-0c0i7yiDNE~rrY2lfS7MbA4s8J35B1~qolrRUeQJfjmwIXpIJJ2hQ27yNKu3uNQgynoOCuq7YF67l1YLGiZAB7dPvGcmOyIb~Ioj70wH5Se-SLfeAbVrsSCh7W9F~qDe2xwvmg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 40,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/40/image/image.jpg?Expires=1717702180&Signature=KbhrwAf6LZXVeosF-13Vh01yd8mqvutV4yBtOfrJjcJDKXiruzCHMwPX-YfWypO1-hSYzC~kjUlS3quFkGEb~iXE4jJCA5EhSVIoezdYohCTZgiAOqNJ69tT-BnfbVT0wZYkoEqdkBNKTodnDV44JdlFqTB~mPLx24MeSWqOUcjCLgAGT76q~9Hya42S5XAWi1BAoAowJ0YFg1yK9gWdA5UTa-lTNBScE6qA8hcqKGFTMq~njVhSYRfVzVeD5HhXqg--6CLBcrKoUrher-Gxchs6FIpvx4~3Ozh0CrnH~b95F8XwtNKeyHUH9bV~qoDnbfs~EVGHVn~3DxQ3yfxh2w__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 41,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/41/image/image.jpg?Expires=1717702180&Signature=TbhiH2HHe~NoappSTKXMwiLXsbVzuCxpX4lKdUEA9x96EHXwqdXdVpHf50GkulJqgUBx~iMlgIyDsfe2tDtkk1O25lB9c~1ZsTaV7QGKUFX2tX-AEF8eDa6prf0OFLXD61oz2JN-2Y6Tp1yJWLEJQXKRD2Rv3wYsubVzXifFqdaiVOcQAfUV6zUA8ZkcXqGCCgTj5oLKk0rAl0e3JGdvJ0cH~2QKTN8VIfkvS6aCphNBKarRNSU88~ofYJOtEoe8oD2a4jNIVspkUW6-xMfikkDV~RJ~ntz~CVmzTQ0lzrEyJOtERX72Cs1KJLdIDW6~5kJHGl8JJZwf8xqyMIN1Mw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 42,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/42/image/image.jpg?Expires=1717702180&Signature=TZOTYkgU-hXYp3Z-Us-gCj0SlUw5VMyID2rG2WJH6deuauL5z~heN1YI2W8KfJZFUbmnkWA0RVZ4tF9RVhAnEfYiaAY-Yqf4LDIwhrjtykYh8a2sQf0rovOhREFJ2Nul2gcftuz4HNu89vctm15QsX-~zGEeXrDOgDiLbDOocBzxh197yPEQ8GpmYsbX3zOKBaDs-VSAu6aBUMlITUcvE7lqSvTAdXzELtFS7Ym3yHOD79b7RnhFIV8YawVBYQURydNpT1spi18QV~4MY6Lp3g9evoc0-WMX5qF~YpKUrns0Tw8ugknpYRQLBRf182t8rS1IoJ2-WAIw5SI8dXjsJg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 43,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/43/image/image.jpg?Expires=1717702180&Signature=W8cUmDD7eptG2VfkF3bv00ppLIZatNlg6Lg7j1LDG74wDcpQWbcjqXGlynt5gLFrWqk8ZMA9m4ma4xyUDYJld0LKPXohrNnWujppwc2x7ZBn~wi6v6tX1SAHGQbn-iqX68ihpx3L6WP0EyubSuMxLnjvDLmyqLerFBvz9FgkrwUElJ2AixY0KZmYmR280736vEQaHTrwt3zYZoMkld8y-k4gqiwNiNV3okB4OvGzsevklIbHrb5p~n7iC05bRAm2X~-BZcghZTgfDQy-BjopKzo0e3KqA5WQyKHqwUlTUF-vvO7l~eS2xds785SmaydBDZfXYFTMKq463VGCMwKqsQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 44,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/44/image/image.jpg?Expires=1717702180&Signature=quWsSXwCqMFkVrQ9WW1gV4P79LcX-WQs6xW24zwW6Q0cPKAr5HNzLLH3zT0p-LOqnPAjdElzqJunhnakKc5Zs-1DeyMU8I8ArW2vuHTieO6MD-z7l4XO5e1zx~KlI3mweFI8Iao1dbdaKcOYlFjlhW1lzOnqePbOEb7gwZX0IJvDG1RfmK3mlYtM4VAw7JTT39fUtIH5jIPFooh1sPUgxLG7sWeeWhfx3ILsUFB9x4o1jvt6o9WfMuokMe7mMOAM-vXBFBNcZp1sRoiCB23fzU9J~6QbxmqZSZOK-oGg8pZ00ckppDpm1x3-4QE3ekrJeERDmXkE-LAnmVV5fd9amA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 45,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/45/image/image.jpg?Expires=1717702180&Signature=oBH4WUBHA8ct9HLzzXY~MFykJbpQjMuIhtcfR4QOomoN74p2RMvnxwCW0FKjSd-pyyKPYy9DuUSqHxaOeNxXw-lujWf-rdP3jsZ2Sl4CypA5C85RgTZsDJJe5urJO69PHyExATqbPYlVpgcofQ564p1UjdY6TFr9EaZDM8D-lz01ZswrI1vtPfj8ZjsRt6cu1SxM~gQfXUPGTUDJpXLS7Jtj0Vc2VcZPlkYSSBVHfEjZc8ucUvSdSEzkIh5Vf2y5X~8wBsU8eHDsNit2tz3AjKnDk9Pcfi4M4ZuSO-tUnGpenyYCZ~m-f0b2FdlbcTjD3CfAtM13G1gcBtc7Uw8GDQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 46,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/46/image/image.jpg?Expires=1717702180&Signature=aosbX-pLMAzK1mbdZea0npRDbk6KtRUWptkjvxalqhDoWrQnEddmyQl6ltIrLTwit194JfecoJHV4WAfzRQKxw~74Ju6LlrW-Ei0N2JrCLlKIfhtQgffY02uE6hfWctvpJZn3Dq8SGKg9i8Si4Z4B94U-lzW0fAqXt7OB5AVGccPxBbGoqztTTU2qbIWgWRGWNwAsOHyxNkBxKSnxwu~-W1OPrz8k2Wm7JkUFSAWAmlUmgrrx0OKRzbYn8J7Mom--bkrdIgwDJE-wt3zrT7imT7J3bbP7JTi0vuIE536u-0Ql9g4nN9K2tUB7RWjYH-sfQMU~kP9-8xfjPhC45s62A__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 47,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/47/image/image.jpg?Expires=1717702180&Signature=Z7Q874UX77r66BmQofk~2xGhMC2lxndrukox-UVCtyP4hRjUc-7PduIjwqlEdOf6ADLcjc-VSK0W-GH6rOCIoplCjVZQdt4j0cT1PgDLwz0ocB9vs-luCawX-9pls891G4~WonyuY-6MIl4SP2ys-xkrDfDVdB2E1uMomk-mSR5YmCj2UNjO~HLhneqQwSr9kqEHu-Q6I4gmyC4gYgmRoXmCeV6mxUNyOShTzVqrnUjWNzA0JwcUstLlwhQYHks075~X-c9bjzqAEu3aeQM6bVamBbgqx7tiQ-xMjQ2YMckWS4nZED3PRapsUOyZH7uD-lEWJMn0oZOjI6kJbD7gcQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 48,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/48/image/image.jpg?Expires=1717702180&Signature=oWyfPn7y23Bj4ntVH4U-fPP4m5UuRHKsYTjkzDu6nVcb5Gz~bO3XXNCSbU61ZwWNvue6CIBlJw9v7i3Xkou1p62vNDuhGkz-sb5WTstQTrxgEU6XngXIrweRaO40aN8V5nmMPYFnmwfHARyvgUf0Na~dOX2ei~bZCfdDnJ6o1GTW-RBqShdI5HqMtJ74qWP0mHdH1esNLDmqDqQghtaQVT2GrKE67Cx41E0kBNerO4y74xkRwdzgDleTw4KBrXRyBKafMlq7dXtcep7~e2KDWZO5jB3PwZHSXLGlmXzV9lE2P4UeQfHOvqouL8L6Cpc7zn7ESL9VH9yfLPBCCUU7ng__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 49,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/49/image/image.jpg?Expires=1717702180&Signature=UzaKIrssfAmp4F7LBaoZAHFPkwVrLO~5UtzsiNCaSnHpOol~~oHrKHr6W0KtL4kd3PnuAWDT57KiYOt4Mn1HlBpRelJfkXEX4ej5b5uE~cN0oD2K5mQg2~zQ85q1d-u3F8t8eM~cRcQxYuvL98Dgnq~M-Y~7ShdfPFJNczTMQT2DrmFFolovJ7hZRhE6c4ZWGgZ8O86-K2xOAXtkRnJOWx8S4V5ra0VyhvcpHoPU-jun~qObqJ87-L8vTE-KP9z5NoFSxjGIgkIQaBjdHYxdGokvJGI5tfYotCPKILNSNKUyYj9EG0TCjgznAVMO0zAz~n2Wdr~3PptYNTU1WP~3og__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 50,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/50/image/image.jpg?Expires=1717702180&Signature=EVxg-0RjqhKbJ~bNx3fEG-EN7g1OzfUxFnH9KQSgsrCbO2Cn-lmBczao-Tj2meD8Dep5Ij9EVXs78ebsjdiaZ8uGrYwV~rqFkeZTWuZN77XplfO4OIASHUGvl~7DczcXgDE3K21hOSAhB0cR-d2AlKb7g9xUKir6XxuToQjnL4YuNgErz3aPaFeSG2~y5mFveQZNmx4bzrsDcMOIHDVW7E9iHw-qP2ivl5q~5DWRwmpjQiYcEtHg12qnjhs2T6O9EmKRTW4zD3tUVoK3L00ihd47Us6POjOrPol3qO8nwNc-sjhI9Hea8hmFA4wgwuvNawujr3pMHSfLtnqe4vy7Lw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 51,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/51/image/image.jpg?Expires=1717702180&Signature=L~ECOqWLGYnrSIa1wxG63ztuCmeyLPtFClv9RqtlRzp-La7A10pmo0mghu5NLfCvY5cdC6-57QK9QKLzXn3DRW0dDeQoj3EZRJ6UE5nWeseSX3kpCM~ZuTQbOZ~IKH4jTuiHQbknwqjIh71aL8x2jDHp6YukgfzmShaBv9qRMwvLSVLDouzTb8r0bKSiZSxgwObt1Yo0iZvaxPa3g2VZ029Q62Nd7SVV6ZTonsFKQ7B0Ito2HRhcBzm-OCApPDr6Y0hP1rBG2nWndgrCpK1BcTWa9jERTj-tjCAf8~ND6coDkH~Csl2SMFRy6CeU1yrHNyZif5JpEAF7uOa9TC58YA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 52,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/52/image/image.jpg?Expires=1717702180&Signature=fpcYUPJ496HsQ~wilyWIngjWVaxtn1rNpGAJ4p~zlmt-P~Nrt~ipgswOEWeOeb0mJQaGw2UUkujRzSSxIuV4qo5TcxQPpOr1asaLNy6Xb3MUlOLRQPOnFEKmDjGNcOKfHfS5JQAcP~rleLG6DzC-5wrVXwIPZNCLy7Hvkx70rqee5YFHrd~pd53hS790OX2Q~S6YBg3jOjI7swyOhz9onDCKg6scqRxp~zVjM624x~rb3JffjkONPYIvVzqg1B5ITbUaMnow554qLKpPIwO44XtP9sH1EQuoKFMqkcqm-0PVtvOmAIMDeOMC3GPNOlorkr1tGSLiINb6LyiE5B5QzQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 53,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/53/image/image.jpg?Expires=1717702180&Signature=kJXiB91kp-4SeYasHmqP7DxMBFoHhaPJBofpaYnjIKA6ULNBn~W0fVSWl7nrOfaM7w9rU1xmTjNgCKp8XOMb3bbodUJDQNziBn5mZY5lLV37GRQAQrP875l~WOGh8g2o9LleO4JNHlxDFryQBcARzoKClrQ3-p2MsdJ6EDf9tuyGu1q-zGqNXGTv3jiIeICabVBMlBGldY9PoXsHTeJmBtcZDAU55ond0Yjf0YG5bubLWNZUUul0pyokzDy00JKK44nUwynS0QA4QW7JO2plkN1tI4G-OgoI-X-z4fyTpEdLM64YLtIM3DJ2AnY4-3NT-whrGUBTEuhDsZXIkfilHw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 54,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/54/image/image.jpg?Expires=1717702180&Signature=FjYYsLYpXUfVtilS2yJEzIrMJAp3y~7oAethhjkiWQ5M5YC2kBMCxkUHSc17FJZE~fGRDB1jNI9JyqaQMagf-d~PihDxJ5tMLgpjK5gP2zTCQ706qnPu6Hty-CgVFTt-1rhXVkxPPsUlDPaVtr4P7HfDcah4hvYrgnScXvkaiQlRjvIYXgk9cROVCyjkku7Ab5ksQtBttIDsUADxIfLce7iwMYTLQadY2zbL7VDy9bufKvBoODiH0cBFyT1rk4ZZYXIJxmbyHmF~kN0rOaBTuPXjbnSQPY6WQCVIqypKRSsjwc-qCAnrUyx9qXZFAZI0R54uL4G2cjbbnxDsN1uGWg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 55,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/55/image/image.jpg?Expires=1717702180&Signature=RL6f1HaVzfAIrvxM2iGwmNvodYWZnTn9n7Dr4Uxb-70lNUkk7MRLWMKzAwoCeBEDNwdgOk2IU~p67vsuippsVTBJpJMbtS2mxAwNHdORAKrLXDhmCwtRD7DAkv6kSstpwp8q71b~EpTaDsOTK9UzIsXn-jqjGsCzjbEMTlVUPlLqFX41lAWHwAgK222vMIwGFjAEXa6DgByN91M7TvyWCPZM21oKnR~OsQ6gUNb97WYaBYrPbzPtC9nlCPJ3hqWKPR-HmmZbvH-A75kEfgVuS85jPYvEAnTTOsSxRJZSUfqoQMSjAo~3h2OSdUjAAXwoHQsm4CXNRICFWiHsZtFP8Q__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 56,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/56/image/image.jpg?Expires=1717702180&Signature=ooK-HSSWfpAsXiJ3-yaVsrD2XZwaXNjvxlrLN8v-uHNx3e9Ad3EEO2xxU8uG8~yLWzLuiwmAV0Jo0hVmztA352aQWSw0xZXOAjsPB1kPkqeF2KfGe6EKOuWeXW8EJqY~Le7hKnSjmc-TJ-0szqGw1JgXPU7tLd2xg6cu9IJjLDumHER8Nfby4~6dXYjUD~SrPXzLjWu3tZGyoJeecIY0o8as-YUvmTeSrzI7~p8055-Radtx5GG4S45jxTniKht4eITdeIEWuf6skmdTyQT7XMaLs1fF6r9DDfvCMN0u78q3xGw8GWE88Clp6Xz7glE-NurYYeESOQ~dPWOLziDlyA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 57,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/57/image/image.jpg?Expires=1717702180&Signature=O9qenwIfci1-YXb0sS3G2BRQFE2XQQQgYhQbCcKxZohKQq3BmbzWh4x0P-iNeO92elpA2fv7qEOSMi6srePRMADSQdNOsdRsMwDhatoRVMGTIsDsrXQNqznusN6ifvMEjcgm8K~Nhnxv9QqI8IRD1JVJ3iOBGGWyOu7QiIpCbbelf18eMS98U~N37gJ6gc5KaHMFaS3waQvZgk61yX9JnTq-gLBSciiiQgz-GhAd7go00dWE~NljjUg6ZqMT4~eq~oeBRlj6dMR-N94ZOgO4MD8sggYmyw8435S8~BsS2B7ujK5Q3h7rZUrdFXWTDmuH-ibfD7GDNHC1AJiCAi6ksQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 58,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/58/image/image.jpg?Expires=1717702180&Signature=qDRGOejqxqqrU6LL5IEwqp58ZwPFT-2dr-9V4bYqRJ5jX5EabGrtX3u-nNtp22PvS8IoD2XKQ9uyW8toOO-svBlTQZFfWs9618Hax8yeA5bqhgOf~fkv0OcSyAgVFKgdemCzyd0vNdr-13lRFCccaTKqUdW67GZ0oFLmZZPbhmJa1lAPK4DXi4ym9rvINSO8oWsN-acnPmhf1Lo~mjD~rI70kotxSryHsZU9XYqbpyHI8QlnFyWG~II4OFCDS3VpHD9KOJVWPqflBp3pchUsFEKWdu0VfMZBYkpnqM46fpqlK1YeSz3UwZ3B-e0zY6~UNfYgaRrfcUxSTlOqHnPRnA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 59,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/59/image/image.jpg?Expires=1717702180&Signature=DnRuUIhNYr8KloFR4T5Ckvb4Wo1ai~eZR9G4slfEr3OfXwPm0nZtkuN4H9Ulc7msi5JyqM9AT7X4cWmyTOC3~InKQP17plN37cfje1ekLabewc7q5JlZiRO3C0s6zdDjyga0w~9ktOLaafZpOTRm0sq329JJbOagPx~2Q-7-jG4wRlzM0wJ6m-zQdqv~AtHdjQbkh52tfnItw51mlq-RAqvjZ4saiCEHzSYTYOvu~V~g1Jv9EPqlPBQhz20xxcaDQEzgMZEqRula2GUSQTjf5EKQHVPyFd8NPOS9KQy~gK9ayzaehU4yrd2WcdLVw-bPX0kl4HjHHpY1UuyA1EkNoA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 60,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/60/image/image.jpg?Expires=1717702180&Signature=nWqN11ukvSZ-ikkYe1VsM2fM0ORF9QNcy1pcq5oWZTteePgWXQI6kwrWyEqx2cbVy7xcXfEiHbRlZ890YXWBq8SFDVU4gmSWD4UI5IwnpM2PEVjgK2KjEC-iNIg-yyi1yCK1yj6NdCr9S8nlkTCW~q-4ReEGml~yG9h1mYIBj9IJva-3N42sAd-F8QWO4lIp-KAIsWJ1JzRljVEaY-7OE-eMdWkVQA1DZJ0aplp29V9VeakHDPNCWFV9alI2frLYbdU~Rq8X~UVd8YdLID97QA3FVjyZf4gD5cXsvOD0Im~olhu32wwa34VzmO-UDoLVGbi0iQvZSGL2Eam26JtfYg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 61,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/61/image/image.jpg?Expires=1717702180&Signature=frnW77k~jRGjc8WLTn7UfWHPgdwXtC-5Ggk2n~djacYeD4GivUz36NOckN0S3kYB3koNg~rxe9tpKSBQWjVGTTpy6kVQs-zO4zBn0IHc-wwaIrVNKliT2ESjEYql7NnQ941oTV61ElH9X0dNyy315Y8IrP1rP6Pt-LC~TyOPzWrmpZ18Xt-U5xQQYtntdgKEp67wXhiQwjXqizHCjsy03y0y1u0WFa4Z3rk4AXYH6BlCg9jnQIcwAKAcgKRxgKWqklMd0T1v~DXoLp-kwrn1-t~kCyymV~EuQYC~Y~6iu-dzQD7VdKRd9jOBC~UOxck8ZEEdeqtTlOFIdjQEhlLaUQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 62,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/62/image/image.jpg?Expires=1717702180&Signature=JeblvHT2zKeEzxeQj9bpVVYCHTEILjC320CEoFWKTKOdrIqTt0xqd5U6LzmPHE39nhXA8C1Z3vnHwiSTgCmjfx3VwGGECztYPxWJZM8ZZBVvDUXT5rcARguPcznT4J6PI~iYIeiIBQQEYjZk47y4AdAbj3M2kFf5OQ9qcuIxibbaIFvtq02~70kQDLmHkzzwiYnByeq2wlMimfth7Idjh7Z312w8ONp4ur5AuktRwJmyRYsafovn1UlT6x6CaWA7NHJJsA7JrXgHTtbimxhZ0zkLnzUncWl5~7sTgXETiPmhS~qk8GXFEsyVEQ-srM8RBRKBm5~1oD7Pdper3FgZSQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 63,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/63/image/image.jpg?Expires=1717702180&Signature=TFfOItP2OT39Z93UHBnSvlFEUHgTqJv2QoM5c~ltz9w8Xb7AhvicDdHRo-~ik4abmHxHLV0FS0VOILOw0gRL-MQTNrt5uSZ50eZKZoeNaaSpVDZCI4dbKx43TVnw~q4ROC8zT6MT7Rq5UpAK39~vuOdxgF54ektj0EEDr7H7f2SjzG-or-BayXset7l6HxWMwL-UUXwOUHkJMXmVMoDgaPZslnV~faQeAjUnxWyOmHUxtrhat0BsO-4n5igEId3dXZoJpr25U1WkB5Leri~M~7mHsjQCdGdx3jQFNLOXxi9jE1dA7PD7cK67-UgPXGUuLRnlSRcM3D8e5WS8ZJmZNA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 64,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/64/image/image.jpg?Expires=1717702180&Signature=jPhbr-b-ppy~TJb6iHgOszT9dJN7WviyMrBbmxFE9vKOsNIYtuPXLWU2Ps-50ViuOONH7mNmk3E3dIKqlJQgduBV4IzpI2SbbZlJIqpay0VMMOQVND-I~AVYKu5JBiglkiHuBr-RbKXOtin4c6d2Y6vwItZwhVH49umOQKUE8u-y3pkLrYBLBV5I2dxFXRv4yS2atZ-qKFRgAD-a07b~EWgNjGcPZNEbtHiN5lEipXpYlMufBMzV9u3g0bDkoMC4d2J0anGK5eJLkCz6w-r6FkpUVkD0BDT95N8kWF5~QbpFe8fis53MQ9DJOJqQDsYFLgENXM8svEb0WnyjhjtgFg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 65,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/65/image/image.jpg?Expires=1717702180&Signature=QhTBoO8iqGKK9d5hNcxaH1MuKeIGDyMoqW3rudD-XpvZjkJphJNpjFdpmBpxSnS14tfdboVTsALuQvw8TsKz35~zdaKo4xECefQg~ZMWj5CoYglLfTp2WKYmevrPOL79JFdGYWh4XwGyr5movhrfRB~nAkz-J5E6qGYAajGVLdA2KWhRovcpfIlr4xz0Gy-U2Kd5LTxMPWs7dKp4Ut9RNOcxGbyByIRgKz2~HXIM-jX91eKDwm5CpyOGXp4OTBNgszG063Bl1Zd7c2StkHxX8JaHWyaogveytrIEr7j-2x32aW4V08P3ms0o5zAFO-5DJ7x3oTt7giLHDIeLMEG-9A__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 66,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/66/image/image.jpg?Expires=1717702180&Signature=W2pPlvSNpn3ib-6tlPlmzZNTTdOTbTw5kHXQLMOsftrXnQij6LIGYfD75l3j1f89lo--ethWuR28nwnLipI5NAgmOqp-Q3kYAad6LnprJMlkGmsia1jM8OyAeCmqH4tHjQsByNvUn6fNU2fl2fC0~hyFo9BPGdZJ6Vk-vw5VyFKws7UaPOwXGLk~EbXSYi2oRkLlU5bvLLXE-ujqR27TCOtHxxHsP0bE3SgUf06YQusB5T~ub5ks6lzVdWycyAH4CA4sZyO~TUvKqCuwn4~MYnyiPjrvc2jVn9FU1cMd9wjt32z7E1r54wrTPT0V1-Ceejvfl4Lo27eKG8Cvji34cA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 67,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/67/image/image.jpg?Expires=1717702180&Signature=gTp6pd1OFXGSVGa2bcJsuFy69-4F0bky-XJUe5RhpVSLfmz~dJjbdxt62FK~wmftuhhkt9lgcI8l8dWy9YAptqIrpM0A9OTCH0js-RG~DWUthLlWL~8qDhEcn~IWrOmWFnUSnw3TeUj1VNLwOufzBFBh6LfLPY-btcZ3UVbwTPd9zDHDB~-iUMUGVVBKWeu16Oicsb0L1c7YKz-UbXEwrszAZ4yKFx6iwR8YF0qFfYcrAYDSFyfKknDOUVvD62hDte3hmrkS3ePsj4wuOZYgs055Fs7BAdevp2IoQCtYNhM71aYrkALURuG5Rnn59oWov7YSM5LaFP0tHM2uw4hX~g__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 68,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/68/image/image.jpg?Expires=1717702180&Signature=y~HPTFSMOBOMTxhjydQ74QfJuNTaxzbYR9FkqndYUfByEhAQqzbgFpmGcKXl6MqkuKj2w2KNNgOiZ2nSZ16Ye4yH3AWNbRchZQQExVLrVqPssDEmsThbpbWAzj6Cmu1rBOlSS-AjZceCp8Yl2Jv2T8nT39CXKwFziroJaNR9Aj5CwAzvVs3VKPfGkFm7IJfnR6UtKkb2OTXkkq3gA2xNDDG61VpcxVSGElD3siNyZjCcwGlFgsEtMJFidbsuGG9Vct~K9F8CGV2HnYq8vmUDTedtBTbM068LYLetndbFeBytPY30Yy4XfhSPMX66BYQ1vu8iVbgajlLQGPOhy~PYxw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 69,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/69/image/image.jpg?Expires=1717702180&Signature=zcyOwPg4~m029iCMB2nXKL2p3lZ3aIxzYUom5lxemD69Z2tbG2T3W9wpcbbY1OJKk4y0LmlszcBYDIrSz1TZqPAzhRURFNqtT95S3PQhX3r1EBlWivb4ZU-GYFDYw~aRtRjR6fi0tXiM2LF-E~ypAad0YrFwhjlM8eEE3FTKwtIBtxM4MfZ7~7rWCp9CZuasICIgr98jqiY2LSglcBmi8tVk5wD7s6rROMqBbWOyt1Slu9ack-dFeKQdDbbz1RstkNXQ-R64wCre5BAW1PeWt00T5dRxyrl5jRrAXfQ38j7dOIp3c8mV4awqhoiFiLMCuVGraAE1pWxXbXfeziF5LA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 70,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/70/image/image.jpg?Expires=1717702180&Signature=IVhkKJgRESETcU75Ko7KVd5ZMUNx2j~fSzYeTzlYKG775khw4gJ4iAbl~zoXc7n7ostUtzC7Ef-zT~a3zg9i1aBWHT1vNqSe7recNKik7w6Eb~20xQwE8A1Z0xgAmZh82e~1XZ8FKBvHghW3EZpVFHjGUqf5z3dBIJNZh9PauKfGXWHf5EI8rrer9AzdWofso8vAFB203J905qL~cNgXAyVLfff1tfK8Yg~QoHW6AoZNI10jC6FTq38ZbuhuclEfFuZ3bZCs9BgT-O07NiTNAEuRA-uMD5T~XoWkwjU259We-ox~k4x9WG1R9Y0-Q~q9~WaGcIWXwfypTKtZwB1UCw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 71,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/71/image/image.jpg?Expires=1717702180&Signature=KpCk57i8LOLM7KKo1ULxoN~~Zpd9wOBaqQIGJO53QU~3orvIwntISCk~TXot72X~56LPTOqnhtwfBqtY9NIEzjp5HVgymgVFw2KOClGA~qPiusdPRELfZkW-mbzJISFdN6yu-FBAyPnc6Mb3-YESkJyHFvJcuWYMsd4eE7qvQm-ysk1DUvSROfyQ~kTXhDsPFwIKOKlvEbQSp43jjwzgkTaJYjzt7aMN04w3nQNU6w6LmAWWT71kcIlwKdmojO3mslHwzPbgan11-OR1uplR4h--ETrXm0GZY7dC9y05nZmUPpi2TMTYGbev0sxoqvBOktJVLLpxBc~q1FTx5uXgVw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 72,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/72/image/image.jpg?Expires=1717702180&Signature=UyF2JlpzTXxcFRNsA4brw0f31l1bKgtCq7yzXHT5XMh9N4OFpkBiUAaTWEQvztA8~MAjy5yu930FdiChh2vEflXemJVbrQ4rQAmFInx63-byeDzGo6NIe7k3b-fSyWmPZP1A3Og0aBJwDSl-vMo3Ybij7c4NT-wMf2MHZ3kezT2~9f~Uev2rMYT83JQZkKIjGeQXbuagDB1TxXVIWvpqYTKeRYODC1QaeZmEZQQpZB3IykGaDU9JFryBtQmlh8zwvxLsbbZLX6MSrXhLPkbeBuaPNugXTol2OGpTiQFnWN2cSG-Uqk4T-8-yKBYe0c0HrZ3wr-QFQ0lZ5kUNRQUOSw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 73,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/73/image/image.jpg?Expires=1717702180&Signature=mxVMI51zZBopJ1GyhoHnMN0zwsa05WjEHWFx7l2H-jf-mPQxJAqfypLOTinIL6fXd6ToktItV4p5x9jr5URh~KvFfYTeSYtoJrgSvHnjsmYgn8vfybNk0oo3mBVozKCrseavW687Luqa3ELyNM-FbC4DjbrOeCqKvVPpjgTHG8e-vJegHWk5F-NqRI8SekXyS9kjfLXPv39amYCiNP2yatzMrOYA-gYbBHUtAdC899ZPdKasrXzgtfL5p5MSmuzgNB3JVL-HbmF2zn5b4hp5S1-o0S1GT-4mIuIx26tLE9UtOkvSA3PKS1v5prqt0143OUejBMZ4UFJ0vOhsvu2J7A__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 74,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/74/image/image.jpg?Expires=1717702180&Signature=M5cSV9ji7j4CrjISMyZtzqARi4nPS6P70bUe97Wf~Wj1yIBWwb6QU1B2v~7Pe2iZPhNYgVAIYGjoifsquri58p7mBSylgoZLnaHjNaH8ziTDvinM8XRyZa2hpQypDZNtliDuXyaOgL~IgnsHd~YJz62X061W~QCINI1JdrYK1RWbkHNNaJ3-tvgepZMYOgQ74TgGZLHsPCrE7se8EsxV8MstWvBSquUugv3QunmnSJ~VeTikepuCIfh~aFMEv6mfEeaawRZQ8oVomonL11kVKaMbqigByPy1NOaaOxPeUtcUaZvLY8AumF3KJtaya3-3P1QYsJCZpfXMkNenvwEFZA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 75,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/75/image/image.jpg?Expires=1717702180&Signature=mHVvCiGPDHTitXcVkKqqTegwVYkUXA~gKmZI0cFJ9ZYW5~IYoKy4Gx74dz6NDFze-63AFM0pVOM9jAMbXJL7u~X44V2aPB9xaD4FBIbE~heYGDgLWgvmxS2JxA9VnJh1umLqqrX8PNT3hUdWvGIVC5qFqqAoB8A-aQSSaqNLNZCSPAppbQVoLXC~F60zChHZP9lRxFFsiuPCRJNfDZreelYo7ayOFhJt-ZA7UEXGY-qRyw8bwcRmZ5Up-N73wcBc8mt9VI~xJQj1T1vSeTcGWKZSu6ExBiILztDlZYnNB0ivitUOS6xLQZvwHT~Oz4GCkLgNnaTVjMh-fQA1JwlUvA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 76,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/76/image/image.jpg?Expires=1717702180&Signature=bVBYLFRPVr~n0msNWFWHg1eMAWJGaz2LsfH7gYwvzHvx6ByIMnuNUxlHGhxdJlPiAbHHNDZ3KhL9UHIPj7HhzmSBKKDo3Y6yE9Hvww3035-BG-UjzbZYh5b-ftEG4ig5CSzF-pmNYZd00vFqoSgagcVUnwnDo-gVUVxTesKuPBH-72XT7SCgrTOPsjpKiNWvfSF1zBq6HDuZYHPVOmXDVVXTfKhTYK-dOjBbZdyLVRUOsd~W2i9i7WWCjnRuzL2USaZXxGOH3i-b~bI~wARNgdRS87TwxmfkRioQVnNRmed4dhJqrNrMead~tIXs4nMKzkw7ciVPl3wS7Yz8--vJBA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 77,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/77/image/image.jpg?Expires=1717702180&Signature=QytB5bzjSSA-d7QbbI2AmFIOOz2YXdIsMHFTTNY2~SSKH3gxjjepXYMuZmnMAhC3aUSOk-iNjuuA~iZAjrjbb07aYzXUIIuJIFDQNWSv9uIdg41oRRDsKmDFtaup9cpX80XLPfDEhXwXn5xOkTSXAyhCs2MBItjio-m3JMKe5JSXTfFEbRTih-C443~hPARY1NuTstDzdL3bMvw~gSuTtvInDB0NiFqj45ippV7d-xBGpEOyb~MMnTO~NAsOWz9heX~ImMIG72Zww-mQClu5XQj8HfyhpzKHAbqEJOU3h7owFEGKkaPNCaldwpPE0DB2BYZQAxH1D~zyUMePh06xTg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 78,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/78/image/image.jpg?Expires=1717702180&Signature=YtKk28FKOIykUF2NXhb1F7DSWdJQVCYhZS2YiEHoupIs~hau7g9d60VOFGO4AuAeLSVOIW9jmF6f1sPK8HggEaIZaYnW6EH4SO3~pYQvntM598fYQGuwOR8x6rMK3pbUfSAZ1ctETbECNczps5hDPir2VqpEvNLqG3hwTqWMYaUrd2v-gkeL-sPBN5-FfDa1k~VfSinWiqthynBrDOCyMx1G5-2vhSiJh-ajK0Ps0S4p2XiazolubXxbnWWZ2phLgbrx9jzFc-kPxXvJwm5xd4uVAIveLy9IFh9dhcI13ZDUbBb3lo-~kj6cXp4ZByqvRaa21FOEOpVkMXZE3klvQg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 79,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/79/image/image.jpg?Expires=1717702180&Signature=eRow4CF3vTfPubluy5e76vY5EL6c9nKmyxG30Yy5aRNRDYSQdA17R~o5lbLouYWlRRZjbAHTFuOuJbRIDmFnpn45Uz7gurg3TPJYY81a6tNnOCVY08ooRLW3yMu3IPdQ7zCealU6Qsbl3HmPGyhqp~ZdNXlKTEi5q0XlmWT7600nA21d3WrvI1Bt5SGK95Es7HD22wNZrFBkwx0k0n11p76dJVYJj9MjwnGCOM0g679dKj4~PTyY6na73stdPZOk4k0l5kUtr2UN-8SQ1OZQBcclVbVXG0GbNQnkw2ru9Jp9utKKNToh7-VKQuulU2Wa6qBWW5jCG4ZaJt4qDxHETw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 80,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/80/image/image.jpg?Expires=1717702180&Signature=hGdwtixuN2B5VZzWmvLvF1uB46XH0fF~zix5RDE23Bfa0kET4oOaY~3gCzeMhg67BYhEPbZsaHp~jeGjzBOOlaGZKGJzKYJIgioKrYyE4EdnpnSEjozrsA3hpebi9KxrT7JunRsEsRdIa-sMgEbph9j-jsM9-0mmiGS2Llk3v6YEQFC5tigrAbXmFadGa8mu6VFxxIMtIPu33VF8e4rZkICZFb-F9yly-g3FB2gfastWshW0ioPQO3bcYCWWJi4oub5pS9KoDPskVj9X6w2HsrGa2G~Eq2hVuvdDxsjEmmJ4xViAMo9lvgyRKQbAPa-SFnudoAvHVH9kW-c62qVdmA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 81,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/81/image/image.jpg?Expires=1717702180&Signature=GHXafimGRjFHTdcOkzJ0xYtpv1rbwNyDDzC6S7bvSr4utE-FL8hIRRAF2owGS9KOvu9dpgMBk8DlXmA-yQpXc5FBQQ3ry3GrHzRV6xVMD6L8sAs-CGjQhAce2YszUcjoeIGC7xfy~UIc8rKLFO9IV9NDkanPPNkddhOX-Aw3KdnEy-V6I6SPOncatOz3rzh30HthjN8SDwNNLirKW9JHjJj0UnS0B3LPmQR4fhg4~H5XCFDSa0YnsO8gAtSA2vMaUGqAovwmBlEXWuAvySC5-XI6waTuiS4SfvzNK7ckyuCsej9RB4wPjup0d4H3vENHZbJD~AD88r4X-6Jh164vmg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 82,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/82/image/image.jpg?Expires=1717702180&Signature=KZhGC9p5tk5Wm15eSBiHbsK08sUmUvzMSshrecsn-wv4GtYMEZrSLIHY8czOLZVXyE7E52Z04~aj8Xy2PlaaCU1aaPi4trFuP1HIsKBZB-MNQuUf~j8rKNDJm4kQ44PvwiWYw9h6Gle8EvZxRUOxFjfKTOCH23QuaYP1LsheC8ah0kmjJFIVqaBJDRSfmkfxeMnXYew2LI4gQMxXv6hmrMjyI0JVwSjQ0HVmjEZHAeMmpkYlqCZOLhKXyuOeDwgsNDUZQoD1HgmCrPzfL1pRqYqlA~h~sWogKb~apkbGePPEGVeX0~fGIbyd8IswsF~Z5cgDpmTWUEBS1RZcY1h0FA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 83,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/83/image/image.jpg?Expires=1717702180&Signature=Mnswyhc9-wHPEnhnEHr5O9WTBWYapPC9CLd-cl6C5~E076pnEO8qRpXvn-ioYCopqnAaML2Uqy2fbfZSXqVZCC0kOxZXYq8K70Z2Ulzh-awetAQLtBDuRVmn63YDDvCZQLLwGHbMWqo3oVbglH1G~WTRaC2uE~BYqSYuxbUo6SjRcvv~U~6xYuv3T1JytywRQ1pFd0Qbm12EIuUKImPTYXUVT5p6sn9ooBrCQU6-yF-GsK4r3isi7ffyQlN7aVKWFrgGG1jpwi7t9fxqH6X0YoUJTssSHgi4lcNSI0w0kcolmAuF088qov6nfTXtuAxGAmY47ysxR~~wPgk3oNeK-w__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 84,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/84/image/image.jpg?Expires=1717702180&Signature=H~t-gRF7Z3LvGR2gyJL-60cJXUmsC~UI817enCu5hIwdng41SNqP27FwzbqPrivcud9DPqi2dRq0FgYf15BeJxs~5GPjvpCwj~6FwrB0eM~TN1HruDoOC6QtJvFdy-bvHYjVgcDYF5sRvGmZPz2Ii-aLeD~xauKlhx45aQvd5Gt8J2-wBE0fiNCgAD3ZDHlKWHskNHvmsRNiLT2TbTz1DvoNSu5xQinfPh1l7GQhpsO8aQko5Hluvx09d8BeKqqdamtDfVJZHr2es6sQrdWRD5U8ciR2HMo2R2pRVjPKzEgs7AuHuO9J~RLGAWstQi~NmETn1a~DTnG8LwZuMTvSxQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 85,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/85/image/image.jpg?Expires=1717702180&Signature=jRPD1HDATvPTkCexY3e53Wv4z~nSmQzeJ~2W267xy9RHQTEP4~ZUOG6gUgy8lPUqnnYvKYx0m-DkDAddQXEJ1NHjuNG5CGvYXLDDJonC29QmihVFestXu0csifCDi6~dJyR41Lr97gJOAJt3BZW~X2NTtFBOjJbv5Qs71HD8CZkFZp56JraOsxTxvIhztgd7m5MSRQVJJUCZ8DCL4qn~KLJ90i4ZmqWYe-c5PDtopK9k6Rw5XLT3SBg~YQlorZ5TstpcovqfrzCqyWcXI8ct4xydpTWrlyMgT2jXvNQCDPxYv6DbQMyeiiRQN4arBi2OS-GP2rr2TrZqCUgyXIa4LQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 86,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/86/image/image.jpg?Expires=1717702180&Signature=RchPmyRvPYlfYGtkdACdeZk6krs~QZ7fe~shDYPJKQdZL6uNlfh2jfEPZk-cJzVvHOq8w5X88jC9guRc0ifcmuH2wetGJlF14s1dljWyFHnfUpn3nx8H1pQqD9Wn7ZFZWvEhgwvWPjAojd9vz-3t8CUYa8oe~6pYyh8tdx~qUAfjdJVKHDgfHikzuQWrMy5S6GDGOlUsoyz475TBmZ9lXDFzE-OwV8-1CoU09SVJGapyefz0Cf6FnEu0cEAmyuH6R1TUtodMngBBE4k6dFuuMLgcCgbMz5zC-t~olBrZN4pLyoO4K2r0Vwj3h7kMNNdXtWSoMqnqP47RURrmU4lQOA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 87,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/87/image/image.jpg?Expires=1717702180&Signature=wzUEdGHv6mPuVXQ~gTHNsWEP4-ytGT-NYT~eQvOgws2k2u4iVrTN1N8GjVdpgBJnWTRK84vOq6-vwJfVI1exDMe9I5N8~nLjmJE1tcpbAPGAGZuxWtVQJCCLUOhDPeUWC7xqEvYmbDI9goTBLF~hVajsSAb5dJvHf~mp9gIs0mVZcTO3bRAxfpHoFFEQMCSLfCy73lzLV3lwp~Euc3VA~YPEevatV1aFRlQi2XQcrPsZn1ty7FHgU2XW0qGWk1xGn0zBPnJhM9qw23aHiVy2NV9ozoEvMUFsVxmhktl9wpvHW5-9JfNaGv5aJ5PAvPjQCO5FcVKUPS8bvtIF0a5t6w__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 88,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/88/image/image.jpg?Expires=1717702180&Signature=Kh455gPBuqf923k~~Udgi6AQzLBCgPxwqqWzeUY8vtxLV99VTIqhn-JlHryWWjsqnAZfqaT88Pz3Sj04KLaJGItn5c36Ot-R6mAuqobJIsC3rc6uefdOwuPjMohJy4OnuLxTIGMXxIuHHE1a6A9aDkUixkc1gTMI4VlhDD3ThKZGbenQcIKFcciENg4NdO70eqMhCz1PmV5O~rChVMbOPCpC9tSA5xDlBSoS~JvfgWe07Y4tvvp4qxYwkILnNshn4ojM9moOJxbGGPiZ87D30N9B0buLWia2r6nxLPERleDDwIiuxYac1Fm9HHRTmQ0-77GnZFpqnlPSCHbY-tYj7A__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 89,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/89/image/image.jpg?Expires=1717702181&Signature=IyeUyAtF~EBtHyMytSGXeXDRdSwjYgaHr6QTOnH749lppMvSmzoUu1CqqkCL-4i0im0XhinzXTWJkHfd1s0K~aILwsB3vp2asVzudcbZFmIrGk3~aTNos3Q79sxdqnNnXxBabkSWPIm9O1UKGMwlmZ162kVV0gkn~joxUL1IVnvktn24ZFW1sO3wB2yo91Ey1ZsmnORqd9Qki2Jx9VW0axGVO6ApLMt6bdjOKbuHlf5xqX0kPe6RZNnm5YZJHM2G715lNy9kfUL46zpmZ6lpcpwPylmxQcuxm6EjO5ovOM3mWwa~2xs8JvS-qRG04ft6otdUSuDuF2TeoYvKc54iJg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 90,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/90/image/image.jpg?Expires=1717702180&Signature=FrwXJuBS-CbMkiw59AqRZfuwGHkpEgaGdiwILImMigPoehrRXbRTfi9JdXWbs6et3PgEa5I~UAWWvz4FYYIeEZy53y68SjH8yt-XWxoLEgrDXBEmpor6eQ~TTLSRrVc-lYnhCtaVC7olrm76FvpXs1G4un95S1vpv30DRUfk9K-5YiTwZgpL~Jf2BQBxCzk7kcFLC67OdZcYAQk4ief3sFj4Y0ZU-GdnGkFSqEmufOMiIByTrhPme7jPnfuIb3uJ~Scix~FIUHs63wwmh49ghHbcHzdkrBWv0n3RgfSExa~eHCMVeDY7x2L9mHWLMyR0bhFUK1V-0Fmcjx8D9YMZ4w__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 91,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/91/image/image.jpg?Expires=1717702180&Signature=A76vT2217vucuvFYW25oKUT~PthaA0ZCZzEA2A8FgoFgaaF1PwhecdC6qGuZ7tcrovwLEA57DC76rEXXRaWTdhfiFllBv2congquGYmApVe1iOCa~bmfKiyhJWrDqFu2lD8zFDEYgxsfORh4GOSfz5G9u2hNRi6K-WaPJTK0Zf4tN8Be99BjgWQkDdYUZ7jBRqLFPz2kohKtwfWnzxRCcN0OjIDpcNnrF7JIqjkCThqITgMHOwk893d5xjG-zAvMlPvhagEs4QyfFgmCMpNv4bfU6yzoF05gRaPdzlxGuSfrbe2r7jc2E5CN~79HKP61onjhDNlTJLKEE5y-pWcUKA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 92,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/92/image/image.jpg?Expires=1717702180&Signature=VCGax9QI-EbmHxISmncq06L1gKaJnMIgO9zDVl5~R7oHRqjpfbtb1I0b7qML0NR6AKzIWF3C8RxCKVyF3B2XuRuNDTdiT4LWeCPUbgOo38-4HjcFwIe9IhxaEtdFdbsv~fD9l4I7eqIK5WZitNn93QMhDdI5MIFFmOlGnlSHwfxkrNvtBq52xC4hwHStkve0yP5DO9uCuTnULr2UyOrHUOsWGzsOe19OAwNpGhmHYsvwiQBg5E6a~LwWtbEIE8~7Ord3a1XsSmS1U~GoZoAP6O54N6MeszAPw4lz~wkb-W6Fu-dsHAdtQ6EDlTOj1X1wpmWEVvXNKany5D21r5HFAw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 93,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/93/image/image.jpg?Expires=1717702180&Signature=V58Z8ajrWe7gNB3KLrGognW1kKsjg9asn71iRKcAzPT116lhhNhk7PXwtrBAcZyy~CL3iB4wekXnnYtL1izngysY0HKqzT6JxGV7Ii6FVMHlPNTrpg72f~njU3YENZi1CltPZeEG0V6Wm26gWWbsfjO1nmcVOhQVJbTJLImyx5u3t~rfE39WNawXXkt9WY~T3awCuoGoWycBYtBaTbs7smfoNQcK4tAf56qzGXm7cA-AfyRRVSkVmRzEREhvXjffzRJsXvndMtOYcnFAi0E22RvbsF148-IHbbiuI3IP2V0NRABxy69Oiilp-B59Z1H3Ur6uo5e699BrCiuqS~in5w__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 94,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/94/image/image.jpg?Expires=1717702181&Signature=TJMGc0xXvlkdIFgg9rGjrE1Ub0Vtu2rQYS4bLrQ0GXmuvFhWvZMiXzQJn2-vbB-FHaclxpdUQKTiKhy1cj4UG6MevVFtopXYDWBR3hS2L6sRhoxi1XovZDupbaUlkkJrcFfnDK5scbNHkQ-RnwYKS5bLdp1PgOyXF4psn-HQtBoY416UGtLRLd~EWUOCJFbYQCqL3gOeFnQewJ3qyW8459bu9QQn8dgCYtygzwYf~8uJ1JzJEGH7D69O7tWY8tIzrA8nGLjgw5EZmB9er4-m8HZU12FiApprjuLAMo-m6pxOEsXGMj730Q385HUhDOUc396tEunlOYqNyvBCoSpQIw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 95,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/95/image/image.jpg?Expires=1717702180&Signature=hulI-sos5Um8PjCACO5-LzJU4K7cKNgm-2dJusR0jBa6e3AnRHIbotki3PfnbRaucvpkoJZfOTcGGwBxW0K8TlPvdk9V84mxnZ8eP~rTNy8pLwTN-kfBt16zh2aifkrCqWqfJ8Pp3Rr9tMum9c7t4ZOVQGNbHPHCCUpfnySdGe-gdM9vUcpQ~mxCziqJEBj5Hj6j7ERuvRMbkPxizKkimIJ3wH3xBZkM5LrX1ia4KSkYvGKBz1UUSuF-e4muifUfTNCZAPLF6lioTRElGgeolIjyKjydsqVlN9DQbSWo2Z0P1Fhfqj-mJJ2yMIdkheN3HtwBO0D-ElX43yWaf7-hlA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 96,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/96/image/image.jpg?Expires=1717702181&Signature=brP2jUZmqL0yUy~kqpqcCAC6-2OWn5gqRzXxx26guAg7G2k~i6hYD8YDniqn6cq2RF6t8kH6PhB-5bvmOtkhk3klPIuXUkcrjhYvV6Y6lFhiP5qG-SSs-qeMeiE21QnlEk~jUTSBCLRPc1RBlndQHYJp6VMYAmtmZsRUxYeue43Mg35yp6ovuaF7KFUOSXQqhEBUWWQOxkZMmuoesIR863RqzTodnfOAXe9xml-x60oSjA97GupO9o6NRwdnFTYYv7giwl~v7maVjZgCULl3gWG2pxowFvIi-4S2x00mTvgBZRCwgYfm15~snzzSrzEJqcSpHx6BtjYV6x7byxyJ3A__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 97,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/97/image/image.jpg?Expires=1717702181&Signature=Da~w9SxODxqrCPtSB~k-SaK2G9VtEd0pfzhMKVroSxgzHqAruckLYVnGv4DOYde94TUwkYn6PEwsxfLU8Zwm5zHdesX~G1NVPqwH0ojrjjhILeeZGXFDkGiNhUc7iVOE1EVymxNcoJtF8n2o--nWBx~qqYOEzDurpMVwTurmwXApBwQfR6JatVFdGc2nCJWrF1qfA-FiPV9Mjo65a5bXhB6q8UjNRI72OBfiBsAhfoytqMYTu1q6TqH7XZLDI1UgUXrGyXecyY7CvMB9oBKyViEJATRkUMi1pMToPwsiKLleDePpbWG5oladj4DNXLsXAA7-Ljeh~oD2iCnvVd-OoQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 98,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/98/image/image.jpg?Expires=1717702181&Signature=KqTp3v385Ypmwi5S~WXuubadqOL2-UYIKXNfuR8qTSsNxS4oFaR6TWvMwnEHFSg1TavPChkbs-qOI8xl5OwVRtR~~TDSPvFOFTOQ7wStEBG-tMDIe5mQEH6mA5-zvklXnzz-AItLhVVeRX8k1k04-WwuLXHT~8r9c6jE7Rf4ciBP8RvdiY1RjLTvZNlQQOsRRC~zj6IQuJbDBIvaarXU7X6EJhVfCeHo1Hbv9ST2vWeTwfdMLWgPu9CL9uWVUqPUH8vqDcmOWEpeG~7KS4nAmwq3goTBP1GX0e-cZ2B7qYhmaNFtICnYnhZbZsOB5aJBmjkFbCY2dw6Ma4NZ94XJdg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 99,
+      "row": {
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/salma-remyx/gym_equipment_dataset/--/ad10f59572afa8b20d42b38751ace5404088d775/--/default/train/99/image/image.jpg?Expires=1717702181&Signature=N65qQkXVdzZatKNpC8f5gNRlmWZb2WHqYdLBhv9kUmILheN6ejoFpw09HBjLGAtSMdnem5iZX6F3BposOAGDlRtiUHFtvIi72nkyxeV6LQp1SYd7681jVlFyg54B8ueGGr2j4P4SE2ULH3e~J4dilepumDDEC~P8XGye0ev9T4p4RN6XGeuvfH8umZ5Is6crdvvSDsCTk8E-vB6ClFIqncAGV6-oB13SJzZBsSpPkIUWFGRctORIyCO1j9dC6AfhNj0Z~cIz0LXidiKJM5FWFnPuqg34KznLarfGN3CAnDiO89XNjLYKFdKWFH6i-WK2QRGmvAgx-TyWjQ2frksCLw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 224,
+          "width": 224
+        },
+        "label": 1
+      },
+      "truncated_cells": []
+    }
+  ],
+  "num_rows_total": 150,
+  "num_rows_per_page": 100,
+  "partial": false
+}
