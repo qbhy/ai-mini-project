@@ -2,7 +2,7 @@
 * [train gym equipment model](train_gym_equipment.py)
 * [timing and pose and equipment detect](pose_detect.py) 
 * ~~[import_faces_from_video](import_faces_from_video.py)~~ 
-* ~~[import_faces_image](import_faces_image.py)~~~ 
+* ~~[import_faces_image](import_faces_image.py)~~ 
 * ~~[face_recognition_from_video](detect_from_video.py)~~ 
 * [Dependencies of the project](requirements.txt) 
 
