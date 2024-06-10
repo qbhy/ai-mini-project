@@ -13,7 +13,7 @@
 ## Division of tasks
 ### Research on technical programmes
 
-**Members**: Jin, Chongyi, Jianlai
+**Members**: Jin, Chongyi, Jianlai, Harshini
 
 **Task Description**. 
 During the technical solution research phase, our team conducted in-depth research and evaluation of a variety of technologies. The following are the main technologies we researched:
