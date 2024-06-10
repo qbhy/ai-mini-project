@@ -7,7 +7,7 @@
 * [Dependencies of the project](requirements.txt) 
 
 ### Main Files
-* [Models for fitness equipment testing](best.pt)
+* [Model for fitness equipment detection](best.pt)
 * [yolov8 model](yolov8n.pt)
 
 ## Division of tasks
